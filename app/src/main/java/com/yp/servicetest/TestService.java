@@ -14,7 +14,7 @@ public class TestService extends Service {
     public TestService() {
     }
 
-    //test3试一下呗,要不再来一下
+    //test3试一下呗,要不再来一下,可以啊,你说怎样就怎样
     @Override
     public IBinder onBind(Intent intent) {
         return myBinder;
