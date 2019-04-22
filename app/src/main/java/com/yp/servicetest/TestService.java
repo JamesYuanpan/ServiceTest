@@ -14,6 +14,7 @@ public class TestService extends Service {
     public TestService() {
     }
 
+    //好吧那就玩一下吧
     @Override
     public IBinder onBind(Intent intent) {
         return myBinder;
