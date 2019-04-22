@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 testService.startDownload();
-                Log.d("从服务端获取数据！！！",testService.getProgress()+"");
+                Log.d("#######从服务端获取数据！！！",testService.getProgress()+"");
             }
         });
     }
