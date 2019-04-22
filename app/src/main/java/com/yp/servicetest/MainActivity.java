@@ -27,11 +27,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 testService.startDownload();
-                Log.d("#######从服务端获取数据！！！",testService.getProgress()+"");
+                Log.d("||||||||####从服务端获取数据！！！",testService.getProgress()+"");
             }
         });
     }
 
+    //创建进度条对话框
     private void createDialog(){
         dialog = new ProgressDialog(this);
         //设置进度条风格，风格为圆形，旋转的
